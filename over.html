@@ -10,9 +10,15 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script src="./over.js"></script>
 
     <title>Super Resolution</title>
 </head>
@@ -27,16 +33,16 @@
   <div class="containers">
    <form style="text-align:center; padding:10%;">
 
-	<div className="txtbox"><input  type="text" placeholder="First name"/></div> <br>
+	<div class="txtbox"><input  type="text" class="fname" placeholder="First name"/></div> <br>
  
-  <div className="txtbox"><input  type="text" placeholder="Last name"/></div> <br>
+  <div class="txtbox"><input  type="text" class="lname" placeholder="Last name"/></div> <br>
 
-	<div className="txtbox"><input  type="password" placeholder="Password"/></div> <br>
+	<div class="txtbox"><input  type="password" class="password" placeholder="Password"/></div> <br>
   
-  <div className="txtbox"><input type="text" placeholder="Email address"/></div> <br>
+  <div class="txtbox"><input type="text" class="email" placeholder="Email address"/></div> <br>
   
-  <div className="txtbox"><input type="text" placeholder="Phone number"/></div> <br>
-<input className="bt_signup" type="submit" value="Signup"/>
+  <div class="txtbox"><input type="text" class="phno" placeholder="Phone number"/></div> <br>
+<input class="bt_signup" type="submit" value="Signup"/>
 </form>
 
 
@@ -55,10 +61,10 @@
   <div class="containers">
    <form style="text-align:center; padding:10%;">
 <label> User Name </label> 
-  <div className="txtbox"><input  type="text"/></div>
+  <div class="txtbox"><input  type="text"/></div>
 <label> Password </label> 
-  <div className="txtbox"><input  type="password"/></div> <br>
-<input className="bt_signup" type="submit" value="Login"/>
+  <div class="txtbox"><input  type="password"/></div> <br>
+<input class="bt_signup" type="submit" value="Login"/>
 </form>
 
 

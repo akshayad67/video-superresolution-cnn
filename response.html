@@ -1,0 +1,26 @@
+<!Doctype html> 
+<html> 
+    <head> 
+   
+<script type="text/javascript" src="https://static.filestackapi.com/v3/filestack.js"></script>
+    </head>
+    <body> 
+
+    	<input type="BUTTON" value="Upload Video" id="Upload" onclick="pick()">
+        <script> <!-- Start of Javascript script tag -->
+             
+        var client = filestack.init("ADtWl8ojzSZCIYZKhQdGez");
+function pick() {
+
+
+	console.log("Picking Watermark");
+    client.pick({
+        accept: 'video/*',
+ 
+        maxFiles:1,
+    });
+}
+
+        </script>
+    </body> 
+</html>
